@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home</title>
+  <link href="style.css" rel="stylesheet" />
+  <link href="grid-style.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed|Montserrat" rel="stylesheet">
+
+</head>
+
+<body>
+  <header>
+    <img id="logo" src="img/logo.png" alt="">
+    <img id="pool" src="img/pool1.png" alt="">
+  </header>
+  <nav class="topnav" id="myTopnav">
+    <a href="index.html">Start</a>
+    <a href="boka.html">Boka</a>
+    <a href="hitta.html">Hitta</a>
+    <a href="mat.html">Mat och dryck</a>
+    <a href="hotell.html" class="active">Info om Hotellet</a>
+    <a href="kontakta.html">Kontakta</a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+  </nav>
+  <section>
+    <article>
+<div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="img/hotell1.jpg" style="width:100%" alt="">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="img/hotell2.jpg" style="width:100%" alt="">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="img/hotell3.jpg" style="width:100%" alt="">
+    <div class="text"></div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+    </article>
+  </section>
+  <aside>
+
+    <ul>
+      <li>
+        Bilder på Hotellet
+      </li>
+    </ul>
+  </aside>
+  <footer>
+    <p>Oh My Green Hotell | Storgatan 1 | 123 45 Storstad | 012 - 12 34 56 | hittamig.m@gmail.com</p>
+  </footer>
+
+  <script src="script-nav.js"></script>
+</body>
+
+</html>
